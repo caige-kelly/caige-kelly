@@ -14,6 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - uses: actions/core@v2
 
     - name: Set Short github sha
       id: short-sha
